@@ -7,7 +7,7 @@ int main() {
 
     srand(time(0));
 
-    int n = 1000000;
+    int n = 10000;
     if(fprintf(fw, "%d\n", n) == EOF) {return -1;}
     for (int i = 0; i < n; i++) {
         int number = rand() % 1000;
